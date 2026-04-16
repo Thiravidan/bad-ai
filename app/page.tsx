@@ -76,8 +76,8 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white">
       {/* Header */}
       <div className="border-b border-slate-700 bg-slate-900/80 backdrop-blur-md px-6 py-4">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">AI Chat</h1>
-        <p className="text-sm text-slate-400">Powered by Groq</p>
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Hallucination AI</h1>
+        <p className="text-sm text-slate-400">Thiravidan's AI</p>
       </div>
 
       {/* Chat Messages Area */}
@@ -85,9 +85,9 @@ export default function Home() {
         {messages.length === 0 ? (
           <div className="flex items-center justify-center h-full flex-col gap-4">
             <div className="text-center">
-              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">ChatBot</h1>
-              <p className="text-xl text-slate-300">Start a conversation</p>
-              <p className="text-sm text-slate-500 mt-2">Powered by Groq AI</p>
+              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Chat-Got-lost-bot</h1>
+              <p className="text-xl text-slate-300">Dont Start a conversation</p>
+              <p className="text-sm text-slate-500 mt-2">Thiravidan's AI</p>
             </div>
           </div>
         ) : (
