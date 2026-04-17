@@ -76,7 +76,7 @@ export default function Home() {
     <div className="flex flex-col h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white">
       {/* Header */}
       <div className="border-b border-slate-700 bg-slate-900/80 backdrop-blur-md px-6 py-4">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Hallucination AI</h1>
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Not an AI</h1>
         <p className="text-sm text-slate-400">Thiravidan's AI</p>
       </div>
 
