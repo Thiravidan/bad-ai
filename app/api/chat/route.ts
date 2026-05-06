@@ -9,7 +9,9 @@ export async function POST(request: Request) {
       );
     }
 
-    const apiKey = process.env.YOUR_GROQ_API_KEY;
+    const apiKey =
+  process.env.YOUR_GROQ_API_KEY ||
+  process.env.GROQ_API_KEY;
     if (!apiKey) {
       console.error("GROQ_API_KEY not found in environment variables");
       return Response.json(
